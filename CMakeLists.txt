@@ -29,7 +29,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
 if (APPLE)
- 	set(CMAKE_OSX_ARCHITECTURES "arm64;x86_64")
+ 	set(CMAKE_OSX_ARCHITECTURES "x86_64")
  	set(protobuf_BUILD_TESTS OFF)
  	set(protobuf_BUILD_PROTOC_BINARIES OFF)
 	add_subdirectory(vendored/protobuf)
